@@ -1,12 +1,12 @@
-import { Button } from "@/components/ui/button"
-
+import { RouterProvider } from 'react-router-dom'
 import './App.css'
+import { router } from './shared/router/router'
 
 function App() {
 
   return (
     <>
-      <Button>12312</Button>
+      <RouterProvider router={router} />
     </>
   )
 }

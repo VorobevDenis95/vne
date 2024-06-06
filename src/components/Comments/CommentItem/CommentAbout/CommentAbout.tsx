@@ -54,7 +54,7 @@ const CommentAbout = () => {
     <FormItem>
       <FormLabel>Username</FormLabel>
       <FormControl>
-        <Textarea placeholder="shadcn" {...field} />
+        <Textarea placeholder="shadcn"  />
       </FormControl>
       <FormDescription>This is your public display name.</FormDescription>
       <FormMessage />
